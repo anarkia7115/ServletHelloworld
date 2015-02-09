@@ -21,7 +21,7 @@ import javax.servlet.http.*;
 //@WebServlet(name="SessionServlet", urlPatterns={"/MathServlet"}) 
 // The following will allow the example to run within the context of the JavaEERecipes example
 // enterprise application (JavaEERecipes.war distro or Netbeans Project
-@WebServlet(name = "MathServlet", urlPatterns = {"ch01/MathServlet"})
+@WebServlet(name = "MathServlet", urlPatterns = {"/MathServlet"})
 public class MathServlet extends HttpServlet {
 
     public void doPost(HttpServletRequest req, HttpServletResponse res)
