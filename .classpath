@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="org/mark/LoggingFilter.java|main/java/org/javaserverfaces/chapter01/|main/java/org/javaserverfaces/chapter01/example01_18/|main/java/org/javaserverfaces/chapter02/|main/java/org/javaserverfaces/chapter03/|main/java/org/javaserverfaces/chapter04/|main/java/org/javaserverfaces/chapter04/example04_01/|main/java/org/javaserverfaces/chapter04/example04_04/|main/java/org/javaserverfaces/chapter04/example04_05/|main/java/org/javaserverfaces/chapter04/example04_07/|main/java/org/javaserverfaces/chapter05/|main/java/org/javaserverfaces/chapter06/|main/java/org/javaserverfaces/chapter06/annotation/|main/java/org/javaserverfaces/chapter06/component/|main/java/org/javaserverfaces/chapter06/converter/|main/java/org/javaserverfaces/chapter06/example06_08/|main/java/org/javaserverfaces/chapter06/validator/|main/java/org/javaserverfaces/common/|main/resources/|main/webapp/|main/webapp/chapter01/|main/webapp/chapter02/|main/webapp/chapter03/|main/webapp/chapter04/|main/webapp/chapter04/layout/|main/webapp/chapter05/|main/webapp/chapter05/layout/|main/webapp/chapter06/|main/webapp/chapter06/layout/|main/webapp/images/|main/webapp/layout/|main/webapp/resources/components/html5/|main/webapp/resources/components/util/|main/webapp/resources/css/|main/webapp/resources/image/|main/webapp/resources/lookat/|main/webapp/resources/lookat/css/|main/webapp/resources/lookat/images/|main/webapp/resources/lunar_eclipse/|main/webapp/resources/lunar_eclipse/css/|main/webapp/resources/lunar_eclipse/images/|main/webapp/resources/movie/|main/" kind="src" path="src"/>
+	<classpathentry excluding="org/mark/LoggingFilter.java|main/java/org/javaserverfaces/chapter01/|main/java/org/javaserverfaces/chapter01/example01_18/|main/java/org/javaserverfaces/chapter02/|main/java/org/javaserverfaces/chapter03/|main/java/org/javaserverfaces/chapter04/|main/java/org/javaserverfaces/chapter04/example04_01/|main/java/org/javaserverfaces/chapter04/example04_04/|main/java/org/javaserverfaces/chapter04/example04_05/|main/java/org/javaserverfaces/chapter04/example04_07/|main/java/org/javaserverfaces/chapter05/|main/java/org/javaserverfaces/chapter06/|main/java/org/javaserverfaces/chapter06/annotation/|main/java/org/javaserverfaces/chapter06/component/|main/java/org/javaserverfaces/chapter06/converter/|main/java/org/javaserverfaces/chapter06/example06_08/|main/java/org/javaserverfaces/chapter06/validator/|main/java/org/javaserverfaces/common/|main/resources/|main/webapp/|main/webapp/chapter01/|main/webapp/chapter02/|main/webapp/chapter03/|main/webapp/chapter04/|main/webapp/chapter04/layout/|main/webapp/chapter05/|main/webapp/chapter05/layout/|main/webapp/chapter06/|main/webapp/chapter06/layout/|main/webapp/images/|main/webapp/layout/|main/webapp/resources/components/html5/|main/webapp/resources/components/util/|main/webapp/resources/css/|main/webapp/resources/image/|main/webapp/resources/lookat/|main/webapp/resources/lookat/css/|main/webapp/resources/lookat/images/|main/webapp/resources/lunar_eclipse/|main/webapp/resources/lunar_eclipse/css/|main/webapp/resources/lunar_eclipse/images/|main/webapp/resources/movie/|main/|org/mark/AcmeReaderServlet.java|org/mark/AcmeReadListenerImpl.java|org/mark/AsyncServlet.java" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_71">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -17,13 +17,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.55/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="D:/Users/gaojx/Downloads/jarlib/javax.mail-1.5.2.jar"/>
 	<classpathentry kind="lib" path="D:/Users/gaojx/Downloads/jarlib/javaee-api-5.jar"/>
-	<classpathentry kind="lib" path="D:/Users/gaojx/Downloads/jarlib/sqljdbc4.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="D:/Users/gaojx/Downloads/jarlib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/ServletHelloWorld/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
